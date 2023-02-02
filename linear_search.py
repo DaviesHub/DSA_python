@@ -18,6 +18,6 @@ def verify(index):
     else:
         print(f"Target found at index {index}")
 
-nums = [2, 44, 6, 5, 1, 10]
-result = linear_search(nums, 5)
-verify(result)
+# nums = [2, 44, 6, 5, 1, 10]
+# result = linear_search(nums, 9)
+# verify(result)
