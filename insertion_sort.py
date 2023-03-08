@@ -21,6 +21,7 @@ def insertion_sort(list):
 
     return list
 
+
 def verify_isort(list):
     '''
         This function verifies if the list is sorted using insertion sort algorithm. It returns true if the list
