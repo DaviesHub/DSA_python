@@ -20,3 +20,14 @@ def insertion_sort(list):
                 j += 1
 
     return list
+
+def verify_isort(list):
+    '''
+        This function verifies if the list is sorted using insertion sort algorithm. It returns true if the list
+        is sorted and false otherwise.
+    '''
+
+    if len(list) <= 1:
+        return True
+    
+    return list[0] < list[1] and verify_isort(list[1:])
