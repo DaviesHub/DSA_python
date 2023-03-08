@@ -28,4 +28,5 @@ def verify_search(list, target):
 
 nums = [2, 10, 44, 57, 62, 91, 103]
 
+
 print(verify_search(nums, 91))
